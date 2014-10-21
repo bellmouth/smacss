@@ -64,12 +64,12 @@ a:hover{color:#2390C9;
 
  
  
- #main-content{float:left;
+ .main-content{float:left;
          width:410px;
          padding:15px;
   }
   
- #main-content2{float:right;
+ .main-content2{float:right;
          background:#073D96;
          width:420px;
          height:468px;
@@ -78,30 +78,32 @@ a:hover{color:#2390C9;
          border-radius: 15px 15px 15px 15px;
   }
   
-#quote{
-       font-weight:bold; 
-	    margin:30px 60px 0px 30px;
-	   font-size:24px;
-	   color:#FFFFFF;}  
-  
- #frog-image{
-			  margin:113px 0px 0px 45px;
-			  -webkit-border-radius: 15px 15px 15px 15px;
-             border-radius: 15px 15px 15px 15px;
-			  border:6px solid white;}
-  
-#wrapper_festival{background-color:#679EB6;width:960px;
-         margin:auto;height:1409px;}
-		 
-
-#main-content3{float:right;
+  .main-content3{float:right;
          width:420px;
          height:468px;
          margin:25px;
         
   }
-		 		 
-#wrapper_gallery{background-color:#679EB6;width:960px;
+	
+  
+.quote{
+       font-weight:bold; 
+	    margin:30px 60px 0px 30px;
+	   font-size:24px;
+	   color:#FFFFFF;}  
+  
+.frog-image{
+			  margin:113px 0px 0px 45px;
+			  -webkit-border-radius: 15px 15px 15px 15px;
+             border-radius: 15px 15px 15px 15px;
+			  border:6px solid white;}
+  
+.wrapper_festival{background-color:#679EB6;width:960px;
+         margin:auto;height:1409px;}
+		 
+
+	 		 
+.wrapper_gallery{background-color:#679EB6;width:960px;
          margin:auto;height:1386px;}
 		 
 
@@ -109,7 +111,7 @@ a:hover{color:#2390C9;
 .gallery {color:#073D96;font-size:20px;padding-top:20px;
 padding-bottom:5px;font-family: 'abeezeeregular'; padding-left:10px;}
 
-#imageContainer {margin-left:130px;}
+.imageContainer {margin-left:130px;}
 
 .photoSpace {padding:10px;}
 	
@@ -128,7 +130,7 @@ textarea{width:300px;
 
 #submit{background-color:#8C8DA9;margin-left:455px;color:#F7F4F4;}
 
- #main-contentcontact2{float:right;
+.main-contentcontact2{float:right;
          background:#073D96;
          width:310px;
          height:478px;
@@ -146,13 +148,13 @@ textarea{width:300px;
 .contact3{color:#F5EFF0;
           padding-left:15px;}
 
-#map{border: 1px solid black;
+.map{border: 1px solid black;
 }
 
 .directions{padding-bottom:10px;}
 
 
-#main-contentdirections{float:right;
+.main-contentdirections{float:right;
          background:#073D96;
 		  color:#F9F5F5;
          width:250px;
@@ -170,7 +172,7 @@ textarea{width:300px;
 		   font-family: 'abeezeeregular';
 		   }
 		   
- #background-color3{background:#F9F5F5; 
+ .background-color3{background:#F9F5F5; 
   width:910px;
   height:480px;
   margin:20px;
@@ -178,7 +180,7 @@ textarea{width:300px;
   -webkit-border-radius: 15px 15px 15px 15px;
   border-radius: 15px 15px 15px 15px;} 
   
-  #wrapper_directions{background-color:#679EB6;
+ .wrapper_directions{background-color:#679EB6;
                       width:960px;
                       margin:auto;
 					    height:1180px;}
@@ -187,7 +189,7 @@ textarea{width:300px;
 .colorforrow{color:#FB0207;
            }
 		   
-#wrapper_schedule{background-color:#679EB6;
+.wrapper_schedule{background-color:#679EB6;
                   width:960px;
                   margin:auto;
 				    height:1953px;}	
@@ -199,7 +201,7 @@ tr{background-color:#597A89;}
 
 
 		 
-#scheduleheading {color:#073D96;
+.scheduleheading {color:#073D96;
                font-size:20px;
 			     padding-top:20px;
                 padding-bottom:15px;
@@ -207,7 +209,7 @@ tr{background-color:#597A89;}
 				 font-family: 'abeezeeregular';}		 
 
 	 	   
- #main-contentschedule{float:left;
+.main-contentschedule{float:left;
          width:540px;
          padding:15px;
 		
@@ -221,20 +223,22 @@ tr{background-color:#597A89;}
 
 
 
-#main-contentwinners{float:left;
+.main-contentwinners{float:left;
                       width:410px;
                       margin-left:25px;
 					    font-size:16px;}
 		   
-.winners{padding-top:10px;}	   
+.winners{padding-top:10px;}
+
+.wrapper_winners{background-color:#679EB6;width:960px;
+         margin:auto;height:1409px;}	   
 
 .winners a{color:#6B7AB8;}
 
- #wrapper_winners{background-color:#679EB6;width:960px;
-         margin:auto;height:1409px;}
 
 
-#main-contentwinners2{float:right;
+
+.main-contentwinners2{float:right;
                       width:410px;
                       margin-right:25px;}
 
@@ -242,14 +246,14 @@ tr{background-color:#597A89;}
 
 
 .involved li{margin-bottom:15px;}
-#main-contentinvolved{float:left;
+.main-contentinvolved{float:left;
                       width:400px;
                       margin-left:35px;
 					    font-size:16px;}
 						
 .payable{margin-top:-16px;}	
 
-#main-contentinvolved2{float:right;
+.main-contentinvolved2{float:right;
          width:420px;
           padding:25px;
          -webkit-border-radius: 15px 15px 15px 15px;
@@ -257,12 +261,12 @@ tr{background-color:#597A89;}
   }	
   
   
-  #involved2{	-webkit-border-radius: 15px 15px 15px 15px;
+ .involved2{	-webkit-border-radius: 15px 15px 15px 15px;
          border-radius: 15px 15px 15px 15px;	
 		 border:2px solid #2A3DAD;		
   }
   
-  #wrapper_involved{background-color:#679EB6;width:960px;
+ .wrapper_involved{background-color:#679EB6;width:960px;
          margin:auto;height:1409px;}
 
 /*End Layout*/
@@ -272,16 +276,16 @@ tr{background-color:#597A89;}
 .sponsors{margin-top:40px;}
 
 
-#nav{width:960px; 
+.nav{width:960px; 
     height:135px;
 	background-color:#C6C4C4;
 	}
-#footer_nav{float:left;
+.footer_nav{float:left;
             position:absolute;
 			 left:-45px;}		 
 
 
-#socialmedia_nav{position:absolute;
+.socialmedia_nav{position:absolute;
                  left:555px;
                  top:35px;
 }  
@@ -427,7 +431,7 @@ a.flick_rollover:hover{
          -webkit-border-radius: 15px 15px 15px 15px;
          border-radius: 15px 15px 15px 15px;} 
 		 
-#background-color3{background:#F9F5F5; 
+.background-color3{background:#F9F5F5; 
          width:910px;
          height:999;
          margin:20px;
@@ -435,7 +439,7 @@ a.flick_rollover:hover{
          -webkit-border-radius: 15px 15px 15px 15px;
          border-radius: 15px 15px 15px 15px;}
 		 
-#background-color4{background:#F9F5F5; 
+.background-color4{background:#F9F5F5; 
          width:910px;
          height:999;
          margin:20px;
@@ -444,7 +448,7 @@ a.flick_rollover:hover{
          border-radius: 15px 15px 15px 15px;}
 
  
- #background-colorschedule{background:#F9F5F5; 
+ .background-colorschedule{background:#F9F5F5; 
          width:910px;
          height:1149px;
          margin:20px;
