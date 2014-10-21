@@ -9,7 +9,7 @@ padding-bottom:5px;font-family: 'abeezeeregular';}
 
 p{padding-top:10px;}
 
-#logo{
+.logo{
   border:1px solid black;
   -webkit-border-radius: 0 15px 15px 0;
 border-radius: 0 15px 15px 0;
@@ -33,22 +33,24 @@ tr{background-color:#597A89;}
 /*End Base*/
 
 /*Layout*/
-#bannerimage{background:url(images/treeimage.jpg) no-repeat;
-width:960px;
-height:449px;
+.bannerimage{background:url(images/treeimage.jpg) no-repeat;
+             width:960px;
+             height:449px;
 border-top:10px solid black;
 border-bottom:10px solid black;}
 
-#wrapper{background-color:#679EB6;width:960px;
-         margin:auto;height:1200px;}
-#footer{width:960px;height:120px;
+.wrapper{background-color:#679EB6;
+         width:960px;
+         margin:auto;
+		 height:1200px;}
+.footer{width:960px;height:120px;
         background:#6C6868;
-		 padding-top:10px;}
+		padding-top:10px;}
 
               
 
 
-#status{background:#BC24C5;
+.status{background:#BC24C5;
         padding:5px;
 		color:#F6F0F0;
 		border:2px solid black;
@@ -58,8 +60,7 @@ a:hover{color:#2390C9;
 }
 
 
-#legal{color:#FAFAFA;font-size:16px;text-align:center;padding:10px;}
-/*Home*/
+.legal{color:#FAFAFA;font-size:16px;text-align:center;padding:10px;}
 
  
  
@@ -410,7 +411,7 @@ a.flick_rollover:hover{
     font-style: normal;
 }
 
- #background-color{background:#F9F5F5; 
+.article{background:#F9F5F5; 
   width:910px;
   height:500px;
   margin:20px;
@@ -418,7 +419,7 @@ a.flick_rollover:hover{
   -webkit-border-radius: 15px 15px 15px 15px;
   border-radius: 15px 15px 15px 15px;}
   
-  #background-color2{background:#F9F5F5; 
+  .article2{background:#F9F5F5; 
          width:910px;
          height:709px;
          margin:20px;
